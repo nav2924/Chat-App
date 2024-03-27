@@ -1,5 +1,5 @@
 
-# CHAT-APP
+# ChatterForge
 
 Build and Deploy a Real Time Chat App | JWT, Socket.io , MERN
 
