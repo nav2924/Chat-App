@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import useLogin from "../../hooks/useLogin";
 
 const Login = () => {
-  const [username, setUsername] = useState("");
+	const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
   const { loading, login } = useLogin();
@@ -18,7 +18,10 @@ const Login = () => {
       <div className="w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-0">
         <h1 className="text-3xl font-semibold text-center text-gray-300">
           Login
-          <span className="text-blue-500"> ChatApp</span>
+          <span className="text" style={{ color: "#B5FFE1" }}>
+            {" "}
+            ChatApp
+          </span>
         </h1>
 
         <form onSubmit={handleSubmit}>
