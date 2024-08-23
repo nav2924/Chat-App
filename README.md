@@ -22,40 +22,56 @@ Here're some of the project's best features:
 * 🪧 Deleting Scaling Moving Clearing Exporting Canvas: Offers a range of functions for managing design elements, including deletion, scaling, moving, clearing the canvas, and exporting the final design for external use.
 * 🪧 And Many More: Including code architecture, advanced React hooks, and reusability.
 
-<h2>🛠️ Installation Steps:</h2>
+## Installation
 
-<p>1. Clone the repo</p>
+Install Chat-App with npm
 
+```bash
+  npm install https://github.com/nav2924/Chat-App.git
+  npm i
+  cd front-end
+  npm i 
 ```
-git clone https://github.com/nav2924/Chat-App.git
+    
+## Environment Variables
 
-<p>2. Move into the directory</p>
+To run this project, you will need to add the following environment variables to your .env file
 
+PORT=...
+
+MONGO_DB_URI=...
+
+JWT_SECRET=...
+
+NODE_ENV=...
+
+
+## Usage/Examples
+
+```javascript
+import Component from 'my-project'
+
+function App() {
+  return <Component />
+}
 ```
-cd Chat-App
+
+
+## To Run Locally
+
+To run the server, run the following command
+
+```bash
+npm run server
 ```
 
-<p>3. Install the dependencies</p>
+To run the front-end, run the following command
 
-```
-npm i
-```
-
-<p>4. Configure the .env.local file in the Folder</p>
-
-```
-NEXT_PUBLIC_LIVEBLOCKS_PUBLIC_KEY=
-```
-
-<p>5. Run the Code</p>
-
-```
+```bash
+cd frontend\
 npm run dev
 ```
 
-  
-  
-<h2>💻 Built with</h2>
 
 Technologies used in the project:
 
